@@ -1,4 +1,4 @@
-// Every component should be responsible for it's own job
+// Every component should be responsible for its own job
 // https://gist.githubusercontent.com/adrianhajdin/8a04faf5e52419ec93cd5329ffcb011e/raw/119ddf3380cecf2a3736afe8e4c83ee008093b6b/index.js
 import Navbar from "./Navbar";
 import Billing from "./Billing";
