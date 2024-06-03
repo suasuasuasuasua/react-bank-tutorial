@@ -21,28 +21,28 @@ const App = () => {
       {/* navbar section */}
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
-          <Navbar></Navbar>
+          <Navbar />
         </div>
       </div>
 
       {/* hero section */}
       <div className={`bg-primary ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          <Hero></Hero>
+          <Hero />
         </div>
       </div>
 
       {/* general section */}
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          <Stats></Stats>
-          <Business></Business>
-          <Billing></Billing>
-          <CardDeal></CardDeal>
-          <Testimonials></Testimonials>
-          <Clients></Clients>
-          <CTA></CTA>
-          <Footer></Footer>
+          <Stats />
+          <Business />
+          <Billing />
+          <CardDeal />
+          <Testimonials />
+          <Clients />
+          <CTA />
+          <Footer />
         </div>
       </div>
     </div>
