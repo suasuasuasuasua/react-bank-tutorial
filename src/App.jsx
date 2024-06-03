@@ -18,7 +18,6 @@ import {
 const App = () => {
   return (
     <div className="bg-primary w-full overflow-hidden">
-      <h1>Hello, world</h1>
       {/* navbar section */}
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
@@ -33,7 +32,7 @@ const App = () => {
         </div>
       </div>
 
-      {/* hero section */}
+      {/* general section */}
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Stats></Stats>
