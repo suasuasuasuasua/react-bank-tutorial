@@ -1,7 +1,7 @@
 import React from "react";
 
-const Billing = () => {
-  return <div>Billing</div>;
-};
+const Billing = () => (
+  <div>Billing</div>
+);
 
 export default Billing;

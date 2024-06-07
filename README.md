@@ -15,13 +15,13 @@
   # Install tailwindcss and utility packages
   # https://tailwindcss.com/docs/guides/create-react-app
   npm install -D tailwindcss postcss autoprefixer
-  npx tailwindcss init -p npm
+  npx tailwindcss init -p
   ```
 
 - `src/main.jsx` is where we actually create and render the application
 - `tailwind.config.js` is where we define some configurations for tailwind
 - `src/index.css` is where we make use of Tailwind CSS
-- Replace `src/App.jsx` with `rafc` snippet to setup an arrow function for React
+- Replace `src/App.jsx` with `rafc` snippet to set up an arrow function for React
 - Add assets from the creator online to `src/assets`
 
 ## Structure and Layout

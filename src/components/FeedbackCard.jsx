@@ -1,7 +1,5 @@
 import React from "react";
 
-const FeedbackCard = () => {
-  return <div>FeedbackCard</div>;
-};
+const FeedbackCard = () => <div>FeedbackCard</div>;
 
 export default FeedbackCard;
